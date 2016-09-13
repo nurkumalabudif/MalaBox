@@ -87,10 +87,15 @@
                 android:spinnerMode="dropdown" />
 
             <TextView
-                android:id="@+id/textViewSR"
+                android:id="@+id/textViewSyarat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerKriteria"
                 android:text="SYARAT REGISTRASI"
+                android:layout_marginTop="8dp"
+                android:layout_weight="0.73"
                 android:textAlignment="center"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textStyle="bold" />
@@ -105,6 +110,9 @@
                     android:id="@+id/checkBoxIdentitas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/checkbox"
                     android:layout_weight="0.48"
                     android:checked="false"
                     android:text="Identitas" />
@@ -113,6 +121,9 @@
                     android:id="@+id/checkBoxPengirim"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/checkbox2"
                     android:layout_weight="0.49"
                     android:checked="false"
                     android:text="K.Pengirim" />
@@ -121,6 +132,9 @@
                     android:id="@+id/checkBoxBarang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/checkbox3"
                     android:layout_weight="0.34"
                     android:checked="false"
                     android:text="K.Barang" />
