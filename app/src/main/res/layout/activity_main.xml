@@ -78,7 +78,13 @@
                 android:id="@+id/spinnerKB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dialog" />
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/spinnerKriteria"
+                android:layout_weight="0.73"
+                android:entries="@array/spinnerKB"
+                android:popupBackground="#FF77C577"
+                android:spinnerMode="dropdown" />
 
             <TextView
                 android:id="@+id/textViewSR"
@@ -134,7 +140,8 @@
                 android:layout_height="62dp"
                 android:layout_below="@+id/linearLayout"
                 android:layout_centerHorizontal="true"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                tools:text="Hasil" />
 
         </LinearLayout>
 

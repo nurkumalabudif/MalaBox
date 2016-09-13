@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText etNamaPengirim;
     TextView tvHasil;
-    Button bOK, bv;
+    Button bv;
     RadioGroup rgKR;
     RadioButton rbPn, rbPo;
     Spinner spKB;
@@ -35,15 +35,19 @@ public class MainActivity extends AppCompatActivity {
         kp = (CheckBox) findViewById(R.id.checkBoxPengirim);
         kb = (CheckBox) findViewById(R.id.checkBoxBarang);
         tvHasil = (TextView) findViewById(R.id.textViewHasil);
-        spKB = (Spinner) findViewById(R.id.Spinnerbarang);
+        spKB = (Spinner) findViewById(R.id.spinnerKB);
         bv = (Button) findViewById(R.id.buttonValidasi);
 
 
         bv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 doClick();
             }
+        });
+    }
+
 
             private void doClick() {
                 if (isValid()) {
@@ -66,11 +70,9 @@ public class MainActivity extends AppCompatActivity {
                     else if(rbPo.isChecked()){
                         hasil = rbPo.getText().toString();
                     }*/
-                    tvHasil.setText("Nama Anda : " + nama + "\n" + "Kriteria data Pengirim : " + hasil);
+                    tvHasil.setText("Nama Anda : " + nama + "\n" + "Kriteria Pengirim : " + hasil + "\n" + "Kriteria Barang : " + spKB.getSelectedItem().toString());
                 }
             }
-        });
-    }
 
 
     private void doProcess() {

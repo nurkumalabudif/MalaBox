@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MalaBox</string>
+    <string-array name="spinnerKB">
+        <item>Elektronik</item>
+        <item>Pakaian</item>
+        <item>Makanan</item>
+        <item>Kendaraan</item>
+        <item>Aksesoris</item>
+        <item>Alat Rumah Tangga</item>
+        <item>Perkakas</item>
+        <item>Buku</item>
+        <item>Kecantikan</item>
+        <item>Kesehatan</item>
+        <item>Game</item>
+        <item>Dapur</item>
+        <item>Perawatan Bayi</item>
+        <item>Sports</item>
+    </string-array>
+</resources>
+
