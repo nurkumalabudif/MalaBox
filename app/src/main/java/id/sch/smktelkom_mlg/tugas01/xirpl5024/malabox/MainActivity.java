@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                     else if(rbPo.isChecked()){
                         hasil = rbPo.getText().toString();
                     }*/
-                    tvHasil.setText("Nama Anda : " + nama + "\n" + "Kriteria Pengirim : " + hasil);
+                    tvHasil.setText("Nama Anda : " + nama + "\n" + "Kriteria data Pengirim : " + hasil);
                 }
             }
         });
