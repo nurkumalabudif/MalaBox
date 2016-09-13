@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Spinnerbarang" type="id" />
+    <item name="textViewhasil3" type="id" />
+    <item name="textViewhasil2" type="id" />
+    <item name="buttonOK" type="id" />
+    <item name="radioButtonPeroranganerorangan" type="id" />
+    <item name="radioButtonPerusahaanerusahaan" type="id" />
+</resources>

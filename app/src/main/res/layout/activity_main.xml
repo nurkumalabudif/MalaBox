@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0e0b0">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b0e0b0"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.tugas01.xirpl5024.MalaBox.MainActivity">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#b0e0b0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="83dp"
+                android:layout_height="113dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/abc_ic_star_black_36dp" />
+
+            <EditText
+                android:id="@+id/editTextNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="NAMA LENGKAP" />
+
+            <TextView
+                android:id="@+id/textViewKriteria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KRITERIA PENGIRIM"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupKriteria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButtonPerusahaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="PERUSAHAAN" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonPerorangan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="PERORANGAN" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/kriteriabarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KRITERIA BARANG"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerKB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/textViewSR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SYARAT REGISTRASI"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <CheckBox
+                    android:id="@+id/checkBoxIdentitas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.48"
+                    android:checked="false"
+                    android:text="Identitas" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxPengirim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.49"
+                    android:checked="false"
+                    android:text="K.Pengirim" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxBarang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.34"
+                    android:checked="false"
+                    android:text="K.Barang" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonValidasi"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Validasi" />
+
+            <TextView
+                android:id="@+id/textViewHasil"
+                android:layout_width="214dp"
+                android:layout_height="62dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
