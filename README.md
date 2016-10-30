@@ -1,14 +1,12 @@
 # MalaBox
 1. IDENTITAS
-Nama = NURKUMALA BUDI FAJRIN
-Kelas = XIRPL5
-No Urut = 24 
-NIS = 4795/1514.070 
-Nama Sekolah = SMK TELKOM MALANG
+* Nama = NURKUMALA BUDI FAJRIN 
+* Kelas = XIRPL5 
+* No Urut = 24 
+* NIS = 4795/1514.070 
+* Nama Sekolah = SMK TELKOM MALANG
 
-2. Penjelasan Aplikasi (Tema/Topik Form Isian, apa yang diisikan,
-
-kegunaan, deteksi kesalahan isian, dll.)
+2. Penjelasan Aplikasi
 
   Jadi aplikasi ini bertemakan aplikasi yang melayani verifikasi hal pengiriman entah dari perseorangan maupun perusahaan (lazada, jne, dll). 
   Jadi verifikasi ini akan meminta data user berupa nama pengirim, kriteria barang yang dikirim, dan persyaratan registrasi yang telah 
